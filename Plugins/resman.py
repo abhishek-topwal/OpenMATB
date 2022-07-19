@@ -59,7 +59,7 @@ class Task(QtWidgets.QWidget):
 
     def onStart(self):
         # Define a QLabel object to display mode
-        self.modeFont = QtGui.QFont("sans-serif", int(self.height() / 35.),
+        self.modeFont = QtGui.QFont("sans-serif", int(self.height() / 50.),
                                     QtGui.QFont.Bold)
         self.modeLabel = QtWidgets.QLabel(self)
         self.modeLabel.setGeometry(QtCore.QRect(self.width() * 0.42, self.height() * 0.40, self.width() * 0.20, 20))

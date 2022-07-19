@@ -13,7 +13,7 @@ class WTank(QtWidgets.QWidget):
         self.tolerance = self.parent().parameters['tolerancelevel']  # below or above the target level
         self.toleranceColor = QtGui.QColor(230, 247, 255)
         self.letterFont = QtGui.QFont(
-            "sans-serif", int(self.parent().height() / 30.), QtGui.QFont.Bold)
+            "sans-serif", int(self.parent().height() / 50.), QtGui.QFont.Bold)
 
         # Define style
         style = """
