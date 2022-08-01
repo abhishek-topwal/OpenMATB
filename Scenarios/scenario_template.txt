@@ -83,12 +83,19 @@
 
 # 4. End tasks at 10 minutes
 
-0:01:00;pumpstatus;stop
-0:01:00;resman;stop
-0:01:00;track;stop
-0:01:00;sysmon;stop
-0:01:00;communications;stop
-0:01:00;scheduling;stop
+0:01:45;pumpstatus;stop
+0:01:45;resman;stop
+0:01:45;track;stop
+0:01:45;sysmon;stop
+0:01:45;communications;stop
+0:01:45;scheduling;stop
 
-0:01:01;end
+# 0:01:00;pumpstatus;stop
+# 0:01:00;resman;stop
+# 0:01:00;track;stop
+# 0:01:00;sysmon;stop
+# 0:01:00;communications;stop
+# 0:01:00;scheduling;stop
+
+0:01:50;end
 
